@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/egitimler.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+
+</head>
+<body>
+    <header class="head">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <!-- Container wrapper -->
+            <div class="container-fluid">
+        
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <!-- Navbar brand -->
+                <a class="navbar-brand mt-2 mt-lg-0" href="index.html">
+                <img
+                    src="images/logo.png"
+                    height="125px"
+                    alt="MDB Logo"
+                    loading="lazy"
+                />
+                </a>
+                <!-- Left links -->
+                <ul id="navbar-ul" class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">Hakkımızda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="egitimler.html">Eğitimler</a>
+                </li>
+               <li class="nav-item">
+                    <a class="nav-link" href="etkinlikler.html">Etkinlikler</a>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link" href="#">İletişim</a>
+                </li> 
+                </ul>
+                <!-- Left links -->
+            </div>
+            <!-- Collapsible wrapper -->
+            
+            
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+    
+    
+    </header>
+    
+<div class="container-fluid" style="margin-top: 80px;">    <!--Section: Contact v.2-->
+    <section class="mb-4">
+    
+        <!--Section heading-->
+        <h2 class="h1-responsive font-weight-bold text-center my-4">Bizimle İletişime geçin</h2>
+        <!--Section description-->
+        <p class="text-center w-responsive mx-auto mb-5">Size nasıl yardımcı olabiliriz. Detaylı olarak bahsediniz.</p>
+    
+        <div class="row" style="justify-content: center;">
+    
+            <!--Grid column-->
+            <div class="col-md-4 mb-md-0 mb-5" style="margin-left:80px;">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+    
+                    <!--Grid row-->
+                    <div class="row">
+    
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label for="name" class="">İsminiz</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+    
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control">
+                                <label for="email" class="">Email</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+    
+                    </div>
+                    <!--Grid row-->
+    
+                    <!--Grid row-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="subject" name="subject" class="form-control">
+                                <label for="subject" class="">Konu</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+    
+                    <!--Grid row-->
+                    <div class="row">
+    
+                        <!--Grid column-->
+                        <div class="col-md-12">
+    
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                <label for="message">Mesajınız</label>
+                            </div>
+    
+                        </div>
+                    </div>
+                    <!--Grid row-->
+    
+                </form>
+    
+                <div class="text-center text-md-left">
+                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Gönder</a>
+                </div>
+                <div class="status"></div>
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-md-3 text-center">
+                <ul class="list-unstyled mb-0">
+                    <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                        <p>Mevlana mah. Ataşehir/İstanbul, TR</p>
+                    </li>
+    
+                    <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                        <p>05522654558</p>
+                    </li>
+    
+                    <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                        <p>solmazyasin@hotmail.com</p>
+                    </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+    
+        </div>
+    
+    </section>
+    <!--Section: Contact v.2-->
+       </div>
+
+
+
+
+
+       <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="EgitimPortal Footer Logo">
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">Anasayfa</a></li>
+                    <li><a href="#">Hakkımızda</a></li>
+                    <li><a href="#">Eğitimler</a></li>
+                    <li><a href="#">Etkinlikler</a></li>
+                    <li><a href="#">İletişim</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-clock align-right">
+            <span id="clock"></span>
+            <span class="date-space"> </span>
+            <span id="date"></span>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 EgitimPortal. Tüm hakları saklıdır.</p>
+        </div>
+      </footer>
+      
+      <style>
+        footer{
+            margin-top: 300px;
+        }
+
+        .date-space {
+            margin-left: 10px;
+        }
+        #clock{
+          padding: 5px;
+          border-radius: 7px;
+          border: 2px solid white;
+      }
+      #date{
+          border-radius: 7px;
+          padding: 5px;
+          border: 2px solid white;
+      }
+      </style>
+      
+      <script>
+        function updateClockAndDate() {
+            const now = new Date();
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            const seconds = String(now.getSeconds()).padStart(2, '0');
+            const date = `${now.getDate()}.${now.getMonth() + 1}.${now.getFullYear()}`;
+            
+            const clockElement = document.getElementById('clock');
+            clockElement.textContent = `${hours}:${minutes}:${seconds}`;
+            
+            const dateElement = document.getElementById('date');
+            dateElement.textContent = date;
+        }
+      
+        // Initial call to update the clock and date
+        updateClockAndDate();
+      
+        // Update the clock and date every second
+        setInterval(updateClockAndDate, 1000);
+      </script>
+      
+      
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</body>
+</html>

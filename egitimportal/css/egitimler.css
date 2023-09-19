@@ -1,0 +1,396 @@
+body{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    
+ }
+ .navbar{
+    width: 100%;
+    background-color: #00FFFF;
+ }
+ .navbar-collapse {
+     max-width: 600px; /* İstediğiniz genişliği burada belirleyebilirsiniz */
+     margin: 0 40px; /* Navbar'ı yatayda ortalamak için */
+     /* Diğer istediğiniz stil ayarlarını buraya ekleyebilirsiniz */
+ }
+ 
+ .navbar-nav .nav-item li a{
+     font-weight: 400;
+     
+  }
+ 
+ .navbar .container-fluid{
+     margin-left: 300px;
+ }
+ 
+ .navbar .container-fluid ul li{
+     margin-left: 25px;
+     
+ }
+ #navbar-ul{
+     font-weight: 500;
+     font-size: 17px;
+ }
+ #navbar-ul a:hover{
+     color:white;
+ }
+ 
+ .login-register {
+     margin-right: 350px;
+   }
+   .button {
+     font-weight: 500;
+     font-size: 17px;
+     background-color: #4CAF50; /* Green */
+     border: none;
+     color: white;
+     padding: 10px 28px; /* Yüksekliği düşürmek için padding ayarı */
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     transition-duration: 0.4s;
+     cursor: pointer;
+     border-radius: 10px; /* Kenarları yuvarlatma */
+ }
+ 
+ .button4 {
+     background-color: white;
+     color: black;
+     border: 2px solid #e7e7e7;
+     transition: background-color 0.4s; /* Geçiş süresini belirleme */
+ }
+ 
+ .button4:hover {
+     background-color: #00FFFF; /* Koyu renk */
+     color: white;
+     border-color: white;
+ }
+ 
+   .button5{
+     background-color: white;
+     color: black;
+     border: 2px solid #e7e7e7;
+     transition: background-color 0.4s; /* Geçiş süresini belirleme */
+   }
+   .button5:hover {background-color: #00FFFF; /* Koyu renk */
+     color: white;border-color: white;}
+ 
+     .giris-form {
+         display: none;
+         text-align: center;
+         margin-top: 20px;
+         width: 300px;
+         position: fixed;
+         top: 100px;
+         right: 180px;
+         transform: translateX(-50%);
+         background-color: #f9f9f9;
+         padding: 20px;
+         border-radius: 5px;
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       }
+       
+       .giris-form input {
+         display: block;
+         margin: 10px 0;
+         padding: 15px; /* Yüksekliği artırmak için padding değeri artırıldı */
+         width: 100%;
+         max-width: 300px;
+         border: 1px solid #ccc;
+         border-radius: 5px; /* Kenar yuvarlatma efektini artırabilirsiniz */
+       }
+       
+       .giris-form button {
+         display: block;
+         margin: 10px auto;
+         padding: 10px 20px;
+         background-color: #007bff;
+         color: white;
+         border: none;
+         border-radius: 9px;
+         cursor: pointer;
+       }
+       
+       .giris-form button:hover {
+         background-color: #0056b3;
+       }
+       
+       /* Ana içerikten giriş formuna kayma */
+ .giris-form-acik {
+         overflow: hidden;
+         display: block;
+         
+ }
+ #signupForm {
+    position: fixed;
+    top: 500px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3; /* Kayıt ol formu diğer içeriğin üzerine gelecek */
+    display: none;
+   
+}     
+
+
+#signinForm {
+    position: fixed;
+    
+    width: 400px;
+    top: 330px;
+        right: 80px;
+    transform: translate(-50%, -50%);
+    z-index: 3; /* Kayıt ol formu diğer içeriğin üzerine gelecek */
+    display: none;
+   
+}     
+  
+ 
+ .slogan-container {
+    text-align: center;
+    margin: auto;
+    padding: 50px 0;
+    max-width: 600px; /* Slogan metninin genişliğini sınırlamak için */
+}
+
+.slogan {
+   
+    margin-bottom: 10px;
+}
+
+.slogan-text {
+    font-size: 16px;
+}
+
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    max-width: 1200px;
+}
+
+.content-left {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+}
+
+.content-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    
+    align-items: start;
+    padding: 20px;
+}
+
+.content-right img {
+    max-width: 100%;
+    height: 250px;
+}
+.full-width-container {
+    display: flex;
+    margin: 75px auto;
+    max-width: 1200px;
+    
+}
+
+.colored-box {
+    flex: 1;
+    height: 300px;
+       display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+   
+}
+
+.red {
+    background-color: #ff5252;
+}
+
+.blue {
+    background-color: #3498db;
+}
+
+.green {
+    background-color: #2ecc71;
+}
+
+.yellow {
+    background-color: #f39c12;
+}
+
+.white-circle {
+    width: 120px;
+    height: 120px;
+    background-color: rgb(239, 248, 239);
+    border-radius: 50%;
+    position: absolute;
+    top: -60px; /* Tepede yarıya kadar dışarı taşması için */
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.education-icon {
+    font-size: 2em;
+}
+
+.content {
+    text-align: center;
+    margin-top: 70px;
+    color: white;
+}
+
+.content h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.content p {
+    font-size: 0.9em;
+    color: white;
+}
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-logo img {
+    height: 50px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.footer-links li {
+    margin-right: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.courses-section {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.course-box {
+    border-radius: 15px;
+    width: calc(33.33% - 20px);
+    height: 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    text-align: center;
+    opacity: 1;
+    position: relative; /* Pozisyonu belirlemek için */
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.course-box img {
+width: 100px;    height: auto;cursor: pointer;
+}
+
+.course-box h4 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+.course-box.expanded {
+    width: 100%;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.course-box.expanded img{
+    width: 150px;
+    height: 150px;
+   
+}
+.course-info {
+    display: none;
+   
+    position: relative;
+    top: 0;
+
+    width: 600px; /* Veya istediğiniz genişlik */
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: none;
+}
+.course-box.expanded .course-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-box.expanded .instructor-photo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.course-box.expanded .instructor-details{
+    margin-top: 15px;
+}
+
+.course-thumbnail img{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    margin-top: 22px;
+}
+
+/* Adjust the alignment of the clock */
+.align-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+
+}
+.align-right  span{
+    font-size: 19px;
+    
+}
+
+#clock{
+    padding: 5px;
+    border: 2px solid white;
+}

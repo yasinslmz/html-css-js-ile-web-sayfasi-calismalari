@@ -1,0 +1,417 @@
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+    
+}
+
+.ust{
+    width: 100%;
+    position: fixed
+}
+
+.header1{
+    background-color: #23275e;
+    height: 40px;
+    display: flex;
+}
+
+.header1 .section1{
+    padding-top: 8px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    align-items: center;
+    margin-left: 950px;
+    height: 100%;
+    width: 430px;
+    
+    
+}
+
+
+.header1 .section1 a{
+    color:rgb(220, 233, 230);
+    text-decoration: none;
+    margin-right: 10px;
+    align-items: center;
+    opacity: 0.7;
+    
+}
+
+
+.header1 .section2 ul{
+   display: flex;
+   padding-left: 0;
+   margin: 0%;
+   padding-top: 5px;
+   
+    
+}
+
+.header1 .section2 a{
+    color:rgb(220, 233, 230);
+    text-decoration: none;
+    margin-right: 10px;
+    align-items: center;
+    opacity: 0.7;
+    
+}
+
+.header2{
+    display: flex;
+    background-color: #ffffff;
+    padding-top: 20px;
+}
+
+
+.header2 .menu{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.header2 .menu ul{
+    display: flex;
+    list-style: none;
+    width: 60%;
+    float: left;
+    height: 100%;
+    margin: 0;
+
+}
+
+.header2 .menu ul li{
+    padding:60px 35px 0px 35px;
+    height: 100%;
+  
+    box-sizing: border-box;
+   
+}
+.header2 .menu ul li a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #0c4277;
+    height:100% ;
+    font-size: 20px;
+    font-weight: 700;
+    
+    
+   
+}
+.header2 .menu ul li:hover{
+    
+    height: 100%;
+    padding:60px 35px 0px 35px;
+    background-color:#23275e ;
+   color: white;
+   
+   
+}
+.header2 .menu ul li:hover a{
+    color: white;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #23275e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  height: 80px;
+  transition: all 0.5s;
+  cursor: pointer;
+ margin: 31px 50px 0  0;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.bor {
+    border-bottom:#23275e solid 8px ;
+  }
+
+
+
+
+
+
+body{
+    background-color:whitesmoke;
+}
+.hizmetler{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #D6EAF8  ;
+    width: 310px;
+    margin:40px;
+    
+
+}
+
+.card-image{
+    
+    height: 190px;
+    margin-bottom: 15px;
+    background-size: cover;
+    
+}
+
+.hizmet-1{
+    background-image: url('https://content.jdmagicbox.com/comp/chennai/z7/044pxx44.xx44.161011180021.w6z7/catalogue/new-generation-lab-chromepet-chennai-blood-testing-centres-bf3cpwx7s6.jpg?clr=');
+}
+
+.hizmet-2{
+    background-image: url('https://www.deryauluduz.com/wp-content/uploads/2020/02/hekim-hasta-iletisimini-nasil-saglariz.jpg');
+}
+
+.hizmet-3{
+    background-image: url('https://www.acibadem.com.tr/hayat/Images/YayinMakaleler/robotik-cerrahi-nedir_7003_1.jpg');
+}
+
+.card p{
+    padding: 15px;
+    text-align: center;
+}
+
+.card h2{
+    text-align: center;
+}
+
+.card a{
+    background-color: white;
+    color:black;
+    padding: 15px;
+    display:block;
+    text-align: center;
+    margin: 20px 50px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.card a:hover{
+    background-color:#23275e;
+    color: white;
+}
+
+.video-bülten{
+    background-color: #21618C;
+    width: 100%;
+    height: 500px;;
+}
+.video-text{
+    padding-left: 350px;
+    text-align:right;
+    display:inline;
+    float: left;
+    color: azure;
+  }
+  .video{
+    
+   display: inline;
+    
+    float: right;
+    
+  }
+.doktorlarımız{
+    text-align: center;
+    color:#3498DB;
+
+}
+
+.doktorlar{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.kişi{
+    background-color: #D6EAF8 ;
+    width: 270px;
+    
+    margin:15px;
+    
+}
+
+.kişi-image{
+    
+    height: 300px;
+    margin-bottom: 15px;
+    background-size: cover;
+    
+}
+.dr-1{
+    background-image: url(images/foto2.jpg);
+}
+
+.dr-2{
+    background-image: url("https://media.licdn.com/dms/image/C4D03AQEHMpWsRHoPiQ/profile-displayphoto-shrink_800_800/0/1636284133691?e=1697673600&v=beta&t=UEdGB9jQNH_8-a9_Whi6fdoUV3_CK96aGRxYv6EehFQ");
+}
+
+.dr-3{
+    background-image: url(images/foto5.jpg);
+}
+
+.dr-4{
+    background-image: url(images/foto1.jpg);
+}
+
+.dr-5{
+    background-image: url(images/emrullah.webp);
+}
+
+.dr-6{
+    background-image: url(images/foto3.jpg);
+}
+
+.dr-7{
+    background-image: url(images/foto.jpg);
+}
+
+.kişi p{
+    padding: 15px;
+    text-align: center;
+}
+
+.kişi h2{
+    text-align: center;
+}
+
+.footer {
+    margin-top: 15px;
+    font-family: 'Raleway', sans-serif;
+    background-color: #23275e;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hospital-info {
+    flex: 1;
+}
+
+.hospital-logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.hospital-logo img {
+    max-width: 100px; 
+    height: auto; 
+    margin: 5px 0;
+}
+
+.fast-links {
+    flex: 1;
+    text-align: center;
+}
+
+.fast-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.fast-links li {
+    margin-bottom: 5px;
+}
+
+.fast-links a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #efeff7;
+  border-right: none;
+  padding: 15px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #efeff7;
+  background: #dcddeb;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+.wrap{
+    padding-top: 53px;
+    margin-right: 86px;
+  width: 400px;
+  top: 100px;
+  left: 75%;
+ 
+}

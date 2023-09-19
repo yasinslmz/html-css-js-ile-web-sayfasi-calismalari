@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/profil_duzenleme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/profil_duzenleme.js"></script>
+
+</head>
+<body>
+   
+    <div class="container">
+        <div class="left">
+            <form action="" method="post" class="form">
+                <h2 style="text-align: center;">Profil Düzenle</h2>
+                <div class="form-group">
+                    <label for="name">İsim:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="username">Kullanıcı Adı:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-posta:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Şifre:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <!-- Diğer bilgileri ekleyebilirsiniz -->
+                <button type="submit" class="btn" id="guncelle">Güncelle</button>
+            </form>
+        </div>
+        <div class="right">
+            <h2 style="text-align: center;">CV Hazırlama Alanı</h2>
+            <form action="" method="post" class="cv-form">
+                <div class="form-group">
+                    <label for="programmingLanguages">Bildiğiniz Programlama Dilleri:</label>
+                    <select id="programmingLanguages" name="programmingLanguages" multiple>
+                        <option value="javascript">JavaScript</option>
+                        <option value="html">Vue.js</option>
+                        <option value="css">React.js</option>
+                        <option value="java">C</option>
+                        <option value="csharp">C#</option>
+                        <option value="java">Java</option>
+                        <option value="cpp">C++</option>
+                        <option value="python">Python</option>
+                        <!-- Diğer dilleri burada ekleyin -->
+                    </select>
+                    <div id="selectedLanguages" class="selected-languages"></div>
+                </div>
+                <div class="form-group">
+                    <label for="technologies">Bildiğiniz Teknolojiler ve Framework'ler:</label>
+                    <select id="technologies" name="technologies" multiple>
+                        <option value="git">Git</option>
+                        <option value="github">GitHub</option>
+                        <option value="html">HTML</option>
+                        <option value="css">CSS</option>
+                        <option value="node">Node.js</option>
+                        <option value="opencv">OpenCV</option>
+                        <option value="pandas">Pandas</option>
+                        <option value="tensorflow">TensorFlow</option>
+                        <option value="scikit">Scikit-Learn</option>
+                        <option value="angular">Angular</option>
+                        <option value="express">Express.js</option>
+                        <!-- Diğer teknolojileri burada ekleyin -->
+                    </select>
+                    
+                    <div id="selectedTechnologies" class="selected-technologies"></div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="education">Mezun Olduğunuz Üniversite:</label>
+                    <input type="text" id="education" name="education">
+                </div>
+                <div class="form-group">
+                    <label for="bolum">Mezun Olduğunuz Bölüm:</label>
+                    <input type="text" id="bolum" name="bolum">
+                </div>
+                <div class="form-group">
+                    <label for="dil">Yabancı Dil Seviyeniz:</label>
+                    <input type="text" id="dil" name="dil">
+                </div>
+                <div class="form-group">
+                    <label for="github">GitHub Profili:</label>
+                    <input type="text" id="github" name="github">
+                </div>
+                <div class="form-group">
+                    <label for="linkedin">LinkedIn Profili:</label>
+                    <input type="text" id="linkedin" name="linkedin">
+                </div>
+                <button type="submit" class="btn" id="gonder">CV'yi Kaydet</button>
+            </form>
+        
+        </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</body>
+</html>
